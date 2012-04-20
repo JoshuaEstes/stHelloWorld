@@ -1,4 +1,4 @@
-namespace JoshuaEstes\stHelloWorld;
+namespace JoshuaEstes\stHelloWorld\Hello;
 
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
@@ -6,15 +6,15 @@ use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Output\OutputInterface;
 
-class HelloCommand extends Command
+class WorldCommand extends Command
 {
   protected function configure()
   {
-    $this->setName('helloworld:hello');
+    $this->setName('helloworld:hello:world');
   }
 
   protected function execute(InputInterface $input, OutputInterface $output)
   {
-    $output->writeln("WORLD!");
+    $output->writeln("HELLO WORLD!");
   }
 }
