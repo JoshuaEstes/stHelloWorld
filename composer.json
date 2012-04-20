@@ -1,0 +1,14 @@
+{
+  name: "JoshuaEstes/stHelloWorld",
+  type: "library",
+  description: "Hello World Tutorial for JoshuaEstes/ServerTools",
+  authors: [
+    {
+      name: "Joshua Estes"
+    }
+  ],
+  dist: {
+    url: "git@github.com:JoshuaEstes/stHelloWorld",
+    type: "git"
+  }
+}
