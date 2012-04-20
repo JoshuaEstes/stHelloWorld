@@ -27,3 +27,4 @@ pull these in. If you need anything else, put it in your composer.json file.
   * http://symfony.com/doc/current/components/console.html
   * http://symfony.com/doc/current/components/finder.html
   * http://symfony.com/doc/current/components/process.html
+  * https://github.com/symfony/Filesystem
