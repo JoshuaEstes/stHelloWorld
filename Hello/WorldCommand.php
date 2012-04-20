@@ -1,3 +1,4 @@
+<?php
 namespace JoshuaEstes\stHelloWorld\Hello;
 
 use Symfony\Component\Console\Command\Command;
